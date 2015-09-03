@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maxymiser test</string>
+
+    <string name="tab_1">select</string>
+    <string name="tab_2">insert</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="id">ID</string>
+    <string name="datatime">Data</string>
+    <string name="todoName">ToDo Name</string>
+    <string name="todoEntry">ToDo Entry</string>
+
+    <string name="insert">INSERT</string>
+    <string name="read">READ</string>
+
+    <string name="delete">DELETE</string>
+
+    <string name="input_data_time">Введите Data Time</string>
+    <string name="input_todo_name">Введите ToDo Name</string>
+    <string name="input_todo_entry">Введите ToDo Entry</string>
+
+    <string name="input_success">Запись успешно вставлена</string>
+
+
+
+
+
+</resources>

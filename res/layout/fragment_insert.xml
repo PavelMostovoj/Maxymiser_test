@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="24sp" >
+    <TextView android:text="@string/datatime" style="@style/styleTextViewH4"/>
+    <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker" android:calendarViewShown="false"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/todoName" style="@style/styleTextViewH4"/>
+        <EditText android:id="@+id/ET_todoName" style="@style/styleEditText"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/todoEntry" style="@style/styleTextViewH4"/>
+        <EditText android:id="@+id/ET_todoEntry" style="@style/styleEditText"/>
+    </LinearLayout>
+
+
+    <Button
+            android:id="@+id/insert"
+            android:text="@string/insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/read"
+            android:text="@string/read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+

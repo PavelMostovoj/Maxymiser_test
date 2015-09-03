@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- standarts color -->
+
+    <color name="ssgreen">#FF99CC00</color>
+    <color name="ssdarckgreen">#FF669900</color>
+    <color name="ssred">#FFff4444</color>
+    <color name="ssdarckred">#FFCC0000</color>
+    <color name="ssblue">#FF33b5e5</color>
+    <color name="ssdarckblue">#FF0099CC</color>
+
+    <!-- Castom app color -->
+
+    <color name="colorButtonText">#FF111111</color>
+
+    <color name="darckdarckgrey">#FF111111</color>
+    <color name="darckgrey">#FF444444</color>
+    <color name="grey">#FF666666</color>
+
+    <color name="basecolor_DarckDarckGrey">#FF111111</color>
+    <color name="basecolor_DarckHalfDarckGrey">#FF222222</color>
+    <color name="basecolor_DarckGrey">#FF333333</color>
+    <color name="basecolor_Grey">#FF555555</color>
+    <color name="basecolor_LightGray">#FF777777</color>
+    <color name="basecolor_LightLightgrey">#FF999999</color>
+
+    <color name="FAB">#FFbb2222</color>
+
+</resources>

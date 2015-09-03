@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/id" style="@style/styleTextViewH4" />
+        <TextView android:id="@+id/TV_id"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/datatime" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_DatatTime"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/todoName" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_ToDoName"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/todoEntry" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_ToDoEntry" style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
